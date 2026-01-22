@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bharat Data Recovery</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- Ensure this image has a transparent background for best effect -->
+            <img src="../assets/images/Logo.png.jpeg" alt="Bharat Data Recovery Logo">
+            <span>Bharat Data Recovery</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../auth/login.html" class="login-btn">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Your Data, Our Responsibility</h1>
+        <p>Expert recovery solutions for Hard Disks, SSDs, USBs, and Mobile devices.</p>
+
+        <div class="hero-buttons">
+            <a href="Services.html" class="btn btn-primary">View Services</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Support</a>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION (Formerly Image Section) -->
+    <section class="services-section">
+        <div class="section-title">
+            <h2>Our Expertise</h2>
+            <p>Recovering lost memories and critical data from any device.</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- HDD -->
+            <div class="service-card">
+                <img src="../assets/images/hdd.jpg.jpg" alt="HDD Recovery">
+                <h3>HDD Recovery</h3>
+                <p>Physical and logical recovery for damaged spinning hard drives.</p>
+            </div>
+
+            <!-- SSD -->
+            <div class="service-card">
+                <img src="../assets/images/ssd.jpg.jpg" alt="SSD Recovery">
+                <h3>SSD Recovery</h3>
+                <p>Advanced recovery techniques for NVMe and SATA Solid State Drives.</p>
+            </div>
+
+            <!-- USB -->
+            <div class="service-card">
+                <img src="../assets/images/usb.jpg.jpg" alt="USB Recovery">
+                <h3>USB / SD Card</h3>
+                <p>Recovery from corrupted, formatted, or broken flash storage.</p>
+            </div>
+
+            <!-- MOBILE -->
+            <div class="service-card">
+                <img src="../assets/images/mobile.jpg.jpg" alt="Mobile Recovery">
+                <h3>Mobile Data</h3>
+                <p>Retrieving photos, contacts, and files from Android & iOS devices.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- REVIEWS SECTION -->
+    <section class="reviews-section" style="padding: 80px 5%; background: rgba(255, 255, 255, 0.02);">
+        <div class="section-title">
+            <h2>What Our Clients Say</h2>
+            <p>Real stories from satisfied customers.</p>
+        </div>
+
+        <div class="reviews-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;"
+            id="reviews-container">
+            <!-- Reviews will be loaded here by JS -->
+            <p style="text-align: center; color: var(--text-dim); grid-column: 1/-1;">Loading reviews...</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>Bharat Data Recovery</h3>
+            <p>Trust us to bring your digital life back.</p>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Bharat Data Recovery. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

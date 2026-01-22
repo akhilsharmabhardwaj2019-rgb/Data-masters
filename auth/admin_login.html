@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Login - Bharat Data Recovery</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/images/Logo.png.jpeg" alt="Bharat Data Recovery Logo">
+            <span>Bharat Data Recovery</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../pages/index.html">Home</a></li>
+            <li><a href="login.html" class="login-btn">User Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- AUTH SECTION -->
+    <div class="auth-container">
+        <div class="auth-card" style="border-color: #d4af3770;">
+            <h2>Admin Portal</h2>
+            <form action="admin_login.php" method="POST">
+                <input type="text" name="username" placeholder="Admin Username" required>
+                <input type="password" name="password" placeholder="Admin Password" required>
+                <button type="submit">Access Dashboard</button>
+            </form>
+            <div class="auth-links">
+                <a href="login.html">⬅ Back to User Login</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
